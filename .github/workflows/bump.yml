@@ -5,12 +5,11 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 'main'
       - 'master'
 
 jobs:
   bump-version:
-    name: 'Bump Version on main'
+    name: 'Bump Version on master'
     runs-on: ubuntu-latest
 
     steps:
@@ -31,7 +30,7 @@ jobs:
         id: version-bump
         uses: 'phips28/gh-action-bump-version@master'
         with:
-          target-branch: 'main'
+          target-branch: 'master'
           default: patch
           major-wording: 'MAJOR,cut-major,perf'
           minor-wording: 'add,new,icon,feat,refactor'
