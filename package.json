@@ -11,12 +11,8 @@
     "ast"
   ],
   "main": "index.js",
-  "repository": "https://github.com/gglnx/simplified-jsx-to-json",
-  "author": {
-    "name": "Dennis Morhardt",
-    "email": "info@dennismorhardt.de",
-    "url": "https://dennismorhardt.de"
-  },
+  "repository": "https://github.com/ClearTax/simplified-jsx-to-json",
+  "author": "Cleartax",
   "license": "MIT",
   "engines": {
     "node": ">=8"
